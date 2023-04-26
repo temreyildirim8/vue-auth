@@ -1,12 +1,16 @@
 <template>
   <div class="input">
-    <input type="text" :placeholder="placeholder">
+    <input :type="type" :placeholder="placeholder">
   </div>
 </template>
 
 <script>
 export default {
   props: {
+    type: {
+      type: String,
+      default: ''
+    },
     placeholder: {
       type: String,
       default: ''

@@ -7,14 +7,14 @@
     </div>
     <div class="tabs-content">
       <div v-if="activeTab === 'login'">
-        <InputComp placeholder="E-posta Adresiniz" textColor="#1c1f28" />
-        <InputComp placeholder="Parolaniz" textColor="#1c1f28" />
+        <InputComp type="email" placeholder="E-posta Adresiniz" textColor="#1c1f28" />
+        <InputComp type="password" placeholder="Parolaniz" textColor="#1c1f28" />
         <ButtonComp bgColor="#8ba631"> Giriş Yap </ButtonComp>
       </div>
       <div v-if="activeTab === 'register'">
-        <InputComp placeholder="Adiniz Soyadiniz" textColor="#1c1f28" />
-        <InputComp placeholder="E-posta Adresiniz" textColor="#1c1f28" />
-        <InputComp placeholder="Parolaniz" textColor="#1c1f28" />
+        <InputComp type="text" placeholder="Adiniz Soyadiniz" textColor="#1c1f28" />
+        <InputComp type="email" placeholder="E-posta Adresiniz" textColor="#1c1f28" />
+        <InputComp type="password" placeholder="Parolaniz" textColor="#1c1f28" />
         <ButtonComp bgColor="#e84363"> Üye Ol </ButtonComp>
       </div>
     </div>
@@ -54,15 +54,16 @@ export default {
       font-weight: bold;
       cursor: pointer;
       text-align: center;
+      border-bottom: #4c4f56 1px solid;
 
       &.login-active {
         color: #8ba631;
-        border-bottom: #8ba631 1px solid;
+        border-bottom: #8ba631 2px solid;
       }
 
       &.register-active {
         color: #e84363;
-        border-bottom: #e84363 1px solid;
+        border-bottom: #e84363 2px solid;
       }
     }
   }

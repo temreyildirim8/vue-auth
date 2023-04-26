@@ -35,6 +35,7 @@ export default {
     font-family: inherit;
     cursor: pointer;
     outline: none;
+    border-radius: 3px;
   }
 }
 </style>
