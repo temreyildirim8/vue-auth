@@ -40,36 +40,34 @@ export default {
 <style lang="scss">
 .tabs {
   background-color: #1c1f28;
-  padding: 30px;
+  padding: 20px;
   width: 100%;
 
   .tabs-header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 
     >div {
       width: 50%;
       padding-bottom: 10px;
-      font-weight: bold;
+      font-weight: normal;
+      font-size: 16px;
       cursor: pointer;
       text-align: center;
+      color: #4c4f56;
       border-bottom: #4c4f56 1px solid;
 
       &.login-active {
         color: #8ba631;
-        border-bottom: #8ba631 2px solid;
+        border-bottom: #8ba631 3px solid;
       }
 
       &.register-active {
         color: #e84363;
-        border-bottom: #e84363 2px solid;
+        border-bottom: #e84363 3px solid;
       }
     }
   }
 
-  .tabs-content {
-    margin-top: 20px;
-  }
+  .tabs-content {}
 }
 </style>

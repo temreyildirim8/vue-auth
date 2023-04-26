@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import AuthComp from '../components/AuthComp.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <AuthComp activeTab="login"/>
   </main>
 </template>

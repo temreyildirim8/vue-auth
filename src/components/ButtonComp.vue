@@ -27,11 +27,11 @@ export default {
     display: block;
     width: 100%;
     padding: 10px;
-    margin: 30px 0 10px 0;
+    margin: 25px 0 0;
     background-color: #8ba631;
     border: none;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
     font-family: inherit;
     cursor: pointer;
     outline: none;

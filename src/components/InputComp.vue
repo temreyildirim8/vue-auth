@@ -24,13 +24,14 @@ export default {
   input {
     display: block;
     width: 100%;
-    padding: 10px;
-    margin: 20px 0;
+    padding: 15px 0;
+    margin-top: 10px;
     background-color: #1c1f28;
     border: none;
     border-bottom: 1px #ffffff solid;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: normal;
     font-family: inherit;
     outline: none;
 
