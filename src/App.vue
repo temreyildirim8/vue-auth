@@ -9,8 +9,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="wrapper">
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/">Giris Yap/Kayit</RouterLink>
+        <RouterLink to="/about">Hakkimizda</RouterLink>
       </nav>
     </div>
   </header>
@@ -47,7 +47,6 @@ nav a.router-link-exact-active:hover {
 nav a {
   display: inline-block;
   padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
 }
 
 nav a:first-of-type {
