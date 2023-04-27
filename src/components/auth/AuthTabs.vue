@@ -1,9 +1,12 @@
 <template>
   <div class="tabs">
     <div class="tabs-header">
-      <div :class="{ 'login-active': activeTab === 'login' }" @click="activeTab = 'login'">Giriş Yap
+      <div :class="{ 'login-active': activeTab === 'login' }" @click="activeTab = 'login'">
+        Giriş Yap
       </div>
-      <div :class="{ 'register-active': activeTab === 'register' }" @click="activeTab = 'register'">Üye Ol</div>
+      <div :class="{ 'register-active': activeTab === 'register' }" @click="activeTab = 'register'">
+        Üye Ol
+      </div>
     </div>
     <div class="tabs-content">
       <div v-if="activeTab === 'login'">
@@ -36,7 +39,7 @@ export default {
   }
 }
 </script>
-  
+
 <style lang="scss">
 .tabs {
   width: 100%;
@@ -44,7 +47,7 @@ export default {
   .tabs-header {
     display: flex;
 
-    >div {
+    > div {
       width: 50%;
       padding: 10px 0;
       font-weight: normal;
@@ -66,6 +69,7 @@ export default {
     }
   }
 
-  .tabs-content {}
+  .tabs-content {
+  }
 }
 </style>

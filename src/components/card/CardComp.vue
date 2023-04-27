@@ -3,7 +3,7 @@
     <slot></slot>
   </div>
 </template>
-  
+
 <style lang="scss">
 .card {
   padding: 20px;
@@ -12,4 +12,3 @@
   border-radius: 5px;
 }
 </style>
-  

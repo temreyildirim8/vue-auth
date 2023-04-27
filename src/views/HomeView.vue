@@ -4,6 +4,6 @@ import AuthComp from '../components/Auth/AuthComp.vue'
 
 <template>
   <main>
-    <AuthComp activeTab="login"/>
+    <AuthComp activeTab="login" />
   </main>
 </template>
