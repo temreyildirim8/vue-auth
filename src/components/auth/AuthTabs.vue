@@ -21,8 +21,8 @@
   </div>
 </template>
 <script>
-import InputComp from './InputComp.vue'
-import ButtonComp from './ButtonComp.vue'
+import InputComp from '../input/InputComp.vue'
+import ButtonComp from '../button/ButtonComp.vue'
 
 export default {
   components: {
@@ -39,8 +39,6 @@ export default {
   
 <style lang="scss">
 .tabs {
-  background-color: #1c1f28;
-  padding: 20px;
   width: 100%;
 
   .tabs-header {
@@ -48,7 +46,7 @@ export default {
 
     >div {
       width: 50%;
-      padding-bottom: 10px;
+      padding: 10px 0;
       font-weight: normal;
       font-size: 16px;
       cursor: pointer;

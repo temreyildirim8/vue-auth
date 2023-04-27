@@ -37,6 +37,7 @@ export default {
 
     &::placeholder {
       color: #ffffff;
+      font-weight: light;
     }
   }
 }

@@ -1,16 +1,20 @@
 <template>
   <div class="auth">
-    <AuthTabs />
+    <CardComp >
+      <AuthTabs />
+    </CardComp>
   </div>
 </template>
   
 <script>
+import CardComp from '../card/CardComp.vue';
 import AuthTabs from './AuthTabs.vue'
 
 export default {
   components: {
-    AuthTabs
-  },
+    AuthTabs,
+    CardComp
+},
 }
 </script>
   

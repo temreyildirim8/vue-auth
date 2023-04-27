@@ -1,5 +1,5 @@
 <script setup>
-import AuthComp from '../components/AuthComp.vue'
+import AuthComp from '../components/Auth/AuthComp.vue'
 </script>
 
 <template>
